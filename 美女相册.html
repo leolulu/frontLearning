@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>美女相册</title>
+    <style>
+        .title_img {
+            width: 150px;
+        }
+
+        .body img {
+            height: 400px;
+            margin-top: 20px;
+        }
+
+        .body {
+            border-top: 5px solid black;
+            margin-top: 20px;
+            width: 605px;
+        }
+    </style>
+</head>
+<body>
+<div class="title" id="title">
+    <img src="images/57758PICAFi.jpg" alt="图片1" class="title_img">
+    <img src="images/20018550_120817338000_2.jpg" alt="图片2" class="title_img">
+    <img src="images/aa64034f78f0f736ae8095d50055b319eac413e3.jpg" alt="图片3" class="title_img">
+    <img src="images/f905ecd469436fb2f2fc0211eca44b3b.jpg" alt="图片4" class="title_img">
+</div>
+<div class="body" id="body">
+    <img src="images/57758PICAFi.jpg" alt="" id="main_pic">
+</div>
+<p id="p1"></p>
+<script>
+    var title_imgs = document.getElementById('title').getElementsByTagName('img');
+    for (var i in title_imgs) {
+        console.log(title_imgs[i]);
+        title_imgs[i].onclick = function () {
+            document.getElementById('main_pic').src = this.src;
+            document.getElementById('p1').innerText = this.alt;
+        }
+    }
+</script>
+</body>
+</html>

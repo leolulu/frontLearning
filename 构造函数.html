@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>构造函数</title>
+    <script>
+        //工厂模式
+        /*        function factory(type,width,height,size) {
+                    var obj = new Object();
+                    obj.type = type;
+                    obj.width = width;
+                    obj.height = height;
+                    obj.size = size;
+                    obj.show = function () {
+                        console.log('展示内容');
+                    };
+                    return obj;
+                }
+                var pic1 = factory('图片','200px','300px','3M');
+                console.log(pic1.type);
+                console.log(pic1.width);
+                console.log(pic1.height);
+                console.log(pic1.size);
+                pic1.show();*/
+        //构造函数模式
+        function Cat(color,wight,age) {
+            this.color = color;
+            this.wight = wight;
+            this.age = age;
+            this.catchMouse = function () {
+                console.log(this.color+'猫抓耗子了');
+            };
+            this.fight = function () {
+                console.log(this.age+'岁的猫在和狗打架');
+            };
+        }
+        var cat1 = new Cat('黄',5,3);
+        cat1.catchMouse();
+        cat1.fight();
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
