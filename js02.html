@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js02</title>
+</head>
+<body>
+
+<script>
+    function Ribao(type, time) {
+        this.time = time;
+        this.type = type;
+
+    }
+
+    Ribao.prototype.alert = function () {
+        console.log('日报运行完毕');
+    }
+
+    var ribao1 = new Ribao('数字', '20180417');
+    console.log(ribao1.type);
+    console.log(ribao1.time);
+    ribao1.alert();
+
+    Array.prototype.join = function () {
+        /*for(var i in this){
+            console.log(i);
+        }*/
+        /*for (var i = 0; i < this.length; i++) {
+            console.log(this[i]);
+        }*/
+        for (var i in this){
+            /*console.log(this[i]);*/
+            console.dir(i);
+        }
+    }
+    var arr1 = new Array('皆', '阵', '列', '在', '前');
+    console.log(arr1);
+    arr1.join();
+
+    var list = 'abcdeefe';
+    for ( var xx in list){
+        console.log(list[xx]);
+    }
+
+</script>
+</body>
+</html>

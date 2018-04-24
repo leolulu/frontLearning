@@ -14,20 +14,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="js01.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js01.html">
+      <file leaf-file-name="js02.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js02.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+            <state relative-caret-position="-8">
+              <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="美女相册.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/美女相册.html">
+      <file leaf-file-name="js随机数全局变量.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js随机数全局变量.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="28" column="6" lean-forward="true" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+            <state relative-caret-position="-8">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="微博发布案例.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/微博发布案例.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="弹幕.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/弹幕.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="497">
+              <caret line="62" column="18" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -58,6 +76,11 @@
         <option value="$PROJECT_DIR$/图片点击自身变大.html" />
         <option value="$PROJECT_DIR$/js01.html" />
         <option value="$PROJECT_DIR$/美女相册.html" />
+        <option value="$PROJECT_DIR$/百度大项目.html" />
+        <option value="$PROJECT_DIR$/js02.html" />
+        <option value="$PROJECT_DIR$/js随机数全局变量.html" />
+        <option value="$PROJECT_DIR$/微博发布案例.html" />
+        <option value="$PROJECT_DIR$/弹幕.html" />
       </list>
     </option>
   </component>
@@ -68,7 +91,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="462" />
+    <option name="x" value="201" />
     <option name="width" value="1400" />
     <option name="height" value="1047" />
   </component>
@@ -107,7 +130,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="liveEdit" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="settings.editor.splitter.proportion" value="0.24781342" />
   </component>
   <component name="RunDashboard">
@@ -122,21 +145,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.美女相册.html">
+  <component name="RunManager" selected="JavaScript Debug.弹幕.html">
     <configuration name="类型转换.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63333/frontLearning/类型转换.html" />
+    <configuration name="微博发布案例.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63333/frontLearning/微博发布案例.html" />
+    <configuration name="弹幕.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63333/frontLearning/弹幕.html" />
     <configuration name="美女相册.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63333/frontLearning/美女相册.html" />
     <configuration name="美女相册.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63333/frontLearning/美女相册.html" />
-    <configuration name="test1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63333/frontLearning/test1.html" />
+    <configuration name="js02.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63333/frontLearning/js02.html" />
+    <configuration name="js随机数全局变量.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63333/frontLearning/js随机数全局变量.html" />
     <list>
-      <item itemvalue="JavaScript Debug.test1.html" />
       <item itemvalue="JavaScript Debug.类型转换.html" />
-      <item itemvalue="JavaScript Debug.美女相册.html" />
+      <item itemvalue="JavaScript Debug.js02.html" />
+      <item itemvalue="JavaScript Debug.js随机数全局变量.html" />
+      <item itemvalue="JavaScript Debug.微博发布案例.html" />
+      <item itemvalue="JavaScript Debug.弹幕.html" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.美女相册.html" />
+        <item itemvalue="JavaScript Debug.弹幕.html" />
+        <item itemvalue="JavaScript Debug.微博发布案例.html" />
+        <item itemvalue="JavaScript Debug.js随机数全局变量.html" />
+        <item itemvalue="JavaScript Debug.js02.html" />
         <item itemvalue="JavaScript Debug.类型转换.html" />
-        <item itemvalue="JavaScript Debug.test1.html" />
       </list>
     </recent_temporary>
   </component>
@@ -157,14 +187,18 @@
       <workItem from="1523497534189" duration="746000" />
       <workItem from="1523507824384" duration="5878000" />
       <workItem from="1523523911121" duration="1803000" />
+      <workItem from="1523845939128" duration="3148000" />
+      <workItem from="1523948158081" duration="3881000" />
+      <workItem from="1523957065579" duration="3419000" />
+      <workItem from="1524538656791" duration="5495000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12732000" />
+    <option name="totallyTimeSpent" value="28675000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="462" y="0" width="1400" height="1047" extended-state="0" />
+    <frame x="201" y="0" width="1400" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11921965" />
@@ -176,7 +210,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.2081545" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.16845493" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -198,6 +232,62 @@
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js随机数全局变量.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/美女相册.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/百度大项目.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/美女相册.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="6" lean-forward="true" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js01.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -319,8 +409,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/美女相册.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="28" column="6" lean-forward="true" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+        <state relative-caret-position="306">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/百度大项目.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="1152" column="4" selection-start-line="1152" selection-start-column="4" selection-end-line="1152" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js随机数全局变量.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery-1.12.4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/微博发布案例.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/弹幕.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="62" column="18" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
         </state>
       </provider>
     </entry>

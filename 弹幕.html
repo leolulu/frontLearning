@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>弹幕</title>
+    <script src="js/jquery-1.12.4.js"></script>
+    <style>
+        .con {
+            border: 2px dashed green;
+            height: 500px;
+            width: 1000px;
+            margin: 50px auto 0;
+            /*overflow: hidden;*/
+            position: relative;
+        }
+        .con span {
+            border: 2px dashed red;
+            white-space: nowrap;
+        }
+
+        .opertion_area {
+            border: 2px dashed darkred;
+            padding: 20px 0;
+            width: 1000px;
+            margin: 1px auto;
+        }
+
+        #text1 {
+            border: 1px solid purple;
+            height: 27px;
+            width: 500px;
+            margin-left: 200px;
+        }
+
+        #bt1 {
+            border: 1px solid purple;
+            background-color: pink;
+            font-size: 21px;
+            vertical-align: middle;
+            color: white;
+        }
+    </style>
+    <script>
+        $(function () {
+
+
+            $('#bt1').click(function () {
+                var myColor = '#' + parseInt(Math.random() * 257).toString(16) +
+                    parseInt(Math.random() * 257).toString(16) +
+                    parseInt(Math.random() * 257).toString(16);
+                var myTop = parseInt(Math.random() * 460);
+                var myFontSize = parseInt(Math.random() * 20+20);
+
+
+                var tempSpan= $('<span></span>')
+                    .text($('#text1').val())
+                    .css({
+                        'position': 'absolute', 'left': '1030px', 'fontSize': myFontSize, 'color': myColor,
+                        'top': myTop
+                    })
+                    .animate({'left': '-100px'}, 5000, 'linear', function () {
+                        $(this).remove();
+                    });
+                tempSpan.appendTo($('.con'));
+
+                console.log(tempSpan.width());
+
+            });
+        });
+    </script>
+</head>
+<body>
+<div class="con"></div>
+<div class="opertion_area">
+    <input type="text" name="" id="text1">
+    <input type="button" value="发布弹幕" id="bt1">
+
+</div>
+</body>
+</html>
