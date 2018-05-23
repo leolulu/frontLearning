@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>json模板示例3</title>
+	<style type="text/css">
+	td,th{
+		border:1px solid orange;
+		text-align: left;
+	}
+	table,tr{
+		border:1px solid red;
+	}
+</style>
+<script type="text/javascript" src="js/template-web.js"></script>
+<script type="text/javascript">
+	var xhr = new XMLHttpRequest();
+	xhr.open('GET','big_data.json');
+	xhr.send();
+	xhr.onreadystatechange = function() {
+		if(this.readyState == 4) {
+			var data = JSON.parse(this.responseText);
+			console.log(data);
+			var html = template('content_template',data);
+			console.log(html);
+			document.getElementById('tb1').innerHTML = html;
+		}
+	}
+</script>
+</head>
+<body>
+	<script type="text/html" id="content_template">
+		<tr>
+			<th>{{$data.key[1]}}</th>
+			<th>YW_CODE</th>
+			<th>PRICE</th>
+			<th>YW_2ND_TYPE</th>
+		</tr>
+			{{each date}}
+			<tr>
+				<td>{{$index+1}}</td>
+				<td>{{$value.YW_CODE}}</td>
+				<td>{{$value.PRICE}}</td>
+				<td>{{$value.YW_2ND_TYPE}}</td>
+			</tr>
+			{{/each}}
+	</script>
+	<table id="tb1"></table>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>AJAX发送http请求</title>
+</head>
+<body>
+	<button id="click">OK</button>
+		<script type="text/javascript">
+		var oButton1 = document.getElementById('click');
+		oButton1.onclick = function(){
+			var xhr = new XMLHttpRequest();
+			xhr.onreadystatechange = function(){
+				var oDiv = document.createElement('div');
+				oDiv.innerHTML = this.readyState;
+				document.body.appendChild(oDiv);
+				if(this.readyState == 4)
+				{
+				var oDiv = document.createElement('div');
+				oDiv.innerHTML = this.responseText;
+				document.body.appendChild(oDiv);
+				}
+			}
+			xhr.open('GET','time.php');
+			xhr.send();
+
+		}
+	</script>
+</body>
+</html>

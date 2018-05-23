@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>json模板示例2</title>
+	<script type="text/javascript" src="js/template-web.js"></script>
+	<script type="text/javascript">
+			var xhr = new XMLHttpRequest();
+			xhr.open('GET','big_data.json');
+			xhr.send();
+			xhr.onreadystatechange = function() {
+				 if(this.readystate == 4) {
+console.log(this.responseText);
+}
+			}
+
+	</script>
+</head>
+<body>
+	<table id="tb1"></table>
+</body>
+</html>
