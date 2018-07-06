@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="node_modules/vue/dist/vue.min.js"></script>
+	<script src="node_modules/jquery/dist/jquery.js"></script>
+
+</head>
+<body>
+	<div id="app">
+		<input type="text" id="text1" value="{{the_number}}">
+		<p>{{the_number}}</p>
+		<input type="button" id="button1" value="+1">
+	</div>
+	<script>
+		var the_number = 0;
+		const app = new Vue({
+			el:'#app',
+			data:{
+				the_number:0
+			}
+		})
+
+		$('#button1').onclick({
+			the_number = the_number + 1;
+		})
+	</script>
+</body>
+</html>

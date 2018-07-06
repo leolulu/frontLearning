@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="node_modules/vue/dist/vue.js"></script>
+</head>
+<body>
+	<div id="app">
+		<template v-if="login_type === 'username'">
+			<lable>用户名登录<input type="text"></lable>
+		</template>
+		<template v-else-if="login_type === 'email'">
+			<lable>邮箱登录<input type="text"></lable>
+		</template>
+		<p></p>
+		<button v-on:click="b_toggle">toggle</button>
+	</div>
+	<script>
+		const app = new Vue({
+			el:"#app",
+			data:{
+				login_type:"username"
+			},
+			methods:{
+				b_toggle: function(){
+					if(this.login_type == 'username'){
+						this.login_type = 'email'
+					}
+					else{
+						this.login_type = 'username'
+					}
+				}
+			}
+		})
+	</script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>TODOS</title>
+	<script src="node_modules/vue/dist/vue.js"></script>
+	<style type="text/css">
+		ul,li{
+			list-style: none;
+			padding: 0;
+		}
+	</style>
+</head>
+<body>
+	<div id="app" class="container">
+		<h1>Todo</h1>
+		<p>3 of {{ all }} remaining [<a href="#">archive</a>]</p>
+		<ul>
+			<li v-for="i in todo_item">
+				<input type="checkbox" name="" id=""><span>{{ i }}</span>
+			</li>
+		</ul>
+		<input type="text" placeholder="add new todo here" v-model="add_item">
+		<button v-on:click="handleAdd">add</button>
+	</div>
+</body>
+<script type="text/javascript">
+	const app = new Vue({
+		el:"#app",
+		// data:{
+		// 	todo_item:[
+		// 	{item:'吃饭'},
+		// 	{item:'睡觉'},
+		// 	{item:'打豆豆'},
+		// 	{item:'ajo'}
+		// 	]
+		// }
+		data:{
+			todo_item:['吃饭','睡觉','打豆豆'],
+			add_item : "",
+			all:0
+		},
+		methods:{
+			handleAdd: function(){
+				this.todo_item.push(this.add_item)
+				this.all = this.todo_item.length
+			}
+		}
+	})
+</script>
+</html>

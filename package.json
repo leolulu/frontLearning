@@ -1,0 +1,23 @@
+{
+  "name": "frontLearning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "nodejs搭建http服务器.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leolulu/frontLearning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leolulu/frontLearning/issues"
+  },
+  "homepage": "https://github.com/leolulu/frontLearning#readme",
+  "dependencies": {
+    "vue": "^2.5.16"
+  }
+}

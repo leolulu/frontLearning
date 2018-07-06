@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="node_modules/vue/dist/vue.js"></script>
+</head>
+<body>
+	<div id="app">
+		<p>{{ reserv() }}</p>
+		<button v-on:click="reserv">逆转</button>
+	</div>
+	<script>
+		const app = new Vue({
+			el:"#app",
+			data:{
+				message:"我的名字是王明"
+			},
+			methods:{
+				reserv: function(){
+					return this.message.split('').reverse().join('')
+				}
+			}
+		})
+	</script>
+</body>
+</html>
