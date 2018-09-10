@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/leolulu/frontLearning#readme",
   "dependencies": {
-    "vue": "^2.5.16"
+    "vue": "^2.5.16",
+    "vue-resource": "^1.5.1"
   }
 }
